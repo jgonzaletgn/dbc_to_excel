@@ -1,6 +1,6 @@
 # dbc-to-excel
 
-Tool to convert from a ``.dbc`` file to ``.xlsx`` Excel file using Python. The sofware is divided in three files:
+Tool to convert from ``.dbc`` files to ``.xlsx`` Excel file using Python. The sofware is divided in three files:
 
 * ``main.py`` is the main file.
 * ``dbc_to_dataframe.py`` is the function to convert from ``.dbc`` file o a pandas dataframe.
@@ -28,4 +28,8 @@ Run ``main.py`` from the terminal or the development environment you are using:
 ```
 python main.py
 ```
+# References
 
+[1] [https://www.csselectronics.com/pages/can-dbc-file-database-intro](https://www.csselectronics.com/pages/can-dbc-file-database-intro)
+
+[2] [https://www.influxtechnology.com/post/understanding-can-dbc](https://www.influxtechnology.com/post/understanding-can-dbc)
