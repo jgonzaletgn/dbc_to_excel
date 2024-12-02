@@ -1,6 +1,8 @@
 # dbc-to-excel
 
-Tool to convert from ``.dbc`` files to ``.xlsx`` Excel file using Python. The sofware is divided in three files:
+This tool parses the ``.dbc`` file, extracting relevant information such as message IDs, signal names, start bit positions, signal lengths, units, and other metadata, and then generates an Excel file for further analysis or documentation. 
+
+The sofware is divided in three files:
 
 * ``main.py`` is the main file.
 * ``dbc_to_dataframe.py`` is the function to convert from ``.dbc`` file o a pandas dataframe.
